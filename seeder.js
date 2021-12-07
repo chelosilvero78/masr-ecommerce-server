@@ -1,14 +1,14 @@
 //import mongoose from 'mongoose'
-import dotenv from 'dotenv'
+//import dotenv from 'dotenv'
 //import colors from 'colors'
 //import users from './data/users.js'
-import products from './data/products'
+const {products}=require('./data/products')
 // import User from './models/user'
-import Product from './models/product'
+const Product=require('./models/product') 
 //import Order from './models/orderModel.js'
 //import connectDB from './config/db.js'
 
-dotenv.config()
+//dotenv.config()
 
 //connectDB()
 
@@ -56,8 +56,10 @@ const destroyData = async () => {
   }
 }
 
-if (process.argv[2] === '-d') {
-  destroyData()
-} else {
-  importData()
-}
+// if (process.argv[2] === '-d') {
+//   destroyData()
+// } else {
+//   importData()
+// }
+
+importData()

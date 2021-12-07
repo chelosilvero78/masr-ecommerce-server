@@ -121,7 +121,8 @@ const products = [
   },
 ]
 
-export default products
+//export default products
+module.exports={products}
 
 
 //cloudinary.v2.api.resource('airpods_oikxel', (error, resultado)=> {console.log (resultado, error);});
