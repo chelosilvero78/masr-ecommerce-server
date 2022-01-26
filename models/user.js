@@ -19,6 +19,7 @@ const userSchema = new mongoose.Schema(
     },
     address: String,
     wishlist: [{ type: ObjectId, ref: "Product" }],
+    picture: String,  //agregado por mi(masr)
   },
   { timestamps: true }
 );
