@@ -1,3 +1,7 @@
+//      middlewares de Ryan Dhungel -course-React-Redux-Ecommerce-Master MERN WebDev
+//        235-code-splitting-with-lazy-and-suspense
+//ubicacion-->  I:\js-react\deploy\cursos-udemy\Ryan Dhungel-australia\course-React-Redux-Ecommerce-Master MERN WebDev\235-code-splitting-with-lazy-and-suspense:
+//funciones: validar auth en general y validar si es admin
 const admin = require("../firebase");
 const User = require("../models/user");
 
