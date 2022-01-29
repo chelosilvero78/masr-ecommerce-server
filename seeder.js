@@ -6,11 +6,11 @@ const {products}=require('./data/products')
 // import User from './models/user'
 const Product=require('./models/product') 
 //import Order from './models/orderModel.js'
-//import connectDB from './config/db.js'
+const connectDB =require('./config/db.js')
 
 //dotenv.config()
 
-//connectDB()
+connectDB()
 
 const importData = async () => {
   try {
