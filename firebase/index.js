@@ -10,6 +10,17 @@
 // module.exports = admin;
 
 
+// configuracion mia(masr)
+// const firebaseConfig = {
+//   apiKey: "AIzaSyCP1UDv0A5qJ4i29gQ-3DirSh6cYMfRchI",
+//   authDomain: "ecommerce-96880.firebaseapp.com",
+//   projectId: "ecommerce-96880",
+//   storageBucket: "ecommerce-96880.appspot.com",
+//   messagingSenderId: "106107429252",
+//   appId: "1:106107429252:web:d9a4fcd89f0c2f91923dd1"
+// };
+
+
 var admin = require("firebase-admin");
 
 var serviceAccount = require("../config/fbServiceAccountKey.json");
